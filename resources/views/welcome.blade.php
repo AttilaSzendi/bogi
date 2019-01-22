@@ -3,7 +3,6 @@
 @section('content')
     <div id="g-offcanvas" data-g-offcanvas-swipe="0" data-g-offcanvas-css3="1">
         <div class="g-grid">
-
             <div class="g-block size-100">
                 <div id="mobile-menu-1473-particle" class="g-content g-particle">
                     <div id="g-mobilemenu-container" data-g-menu-breakpoint="51rem"></div>
@@ -12,249 +11,13 @@
         </div>
     </div>
     <div id="g-page-surround">
-        <div class="g-offcanvas-hide g-offcanvas-toggle" data-offcanvas-toggle aria-controls="g-offcanvas"
-             aria-expanded="false"><i class="fa fa-fw fa-bars"></i></div>
+        <div class="g-offcanvas-hide g-offcanvas-toggle" data-offcanvas-toggle aria-controls="g-offcanvas" aria-expanded="false">
+            <i class="fa fa-fw fa-bars"></i>
+        </div>
 
+        @include('layouts.social')
 
-        <header id="g-header">
-            <div class="g-container">
-                <div class="g-grid">
-
-                    <div class="g-block size-50">
-                        <div id="custom-2679-particle" class="g-content g-particle">
-                            <div class="header-menu">
-                                <ul>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">Price Enquiry</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="g-block size-50 align-right">
-                        <div id="social-3345-particle" class="g-content g-particle">
-                            <div class="g-social social">
-                                <a target="_blank" href="#" title="" aria-label="">
-                                    <span class="fa fa-facebook"></span> <span class="g-social-text"></span> </a>
-                                <a target="_blank" href="#" title="" aria-label="">
-                                    <span class="fa fa-instagram"></span> <span class="g-social-text"></span> </a>
-                                <a target="_blank" href="#" title="" aria-label="">
-                                    <span class="fa fa-linkedin"></span> <span class="g-social-text"></span> </a>
-                                <a target="_blank" href="#" title="" aria-label="">
-                                    <span class="fa fa-twitter"></span> <span class="g-social-text"></span> </a>
-                                <a target="_blank" href="#" title="" aria-label="">
-                                    <span class="fa fa-youtube-play"></span> <span class="g-social-text"></span> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </header>
-
-        <section id="g-navigation">
-            <div class="g-container">
-                <div class="g-grid">
-
-                    <div class="g-block size-20 align-left">
-                        <div id="logo-2264-particle" class="g-content g-particle"><a href="/greennature" target="_self"
-                                                                                     title="Gantry 5" rel="home"
-                                                                                     class="gantry-logo">
-                                <img src="/greennature/templates/jl_greennature_pro/images/logo.png" alt="Gantry 5"/>
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <div class="g-block size-70 center">
-                        <div id="menu-1517-particle" class="g-content g-particle">
-                            <nav class="g-main-nav" role="navigation" data-g-hover-expand="true">
-                                <ul class="g-toplevel">
-
-                                    <li class="g-menu-item g-menu-item-type-component g-menu-item-101 active g-standard  ">
-                                        <a class="g-menu-item-container" href="/greennature/index.php">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Home</span>
-
-                    </span>
-                                        </a>
-                                    </li>
-
-
-                                    <li class="g-menu-item g-menu-item-type-component g-menu-item-107 g-standard  ">
-                                        <a class="g-menu-item-container" href="/greennature/index.php/about">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">About</span>
-
-                    </span>
-                                        </a>
-                                    </li>
-
-
-                                    <li class="g-menu-item g-menu-item-type-component g-menu-item-114 g-standard  ">
-                                        <a class="g-menu-item-container" href="/greennature/index.php/services">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Services</span>
-
-                    </span>
-                                        </a>
-                                    </li>
-
-
-                                    <li class="g-menu-item g-menu-item-type-separator g-menu-item-108 g-parent g-standard  ">
-                                        <div class="g-menu-item-container" data-g-menuparent="">                                                                            <span
-                                                    class="g-separator g-menu-item-content">            <span
-                                                        class="g-menu-item-title">Pages</span>
-            </span>
-                                            <span class="g-menu-parent-indicator"></span></div>
-                                        <ul class="g-dropdown g-inactive g-zoom g-dropdown-right">
-                                            <li class="g-dropdown-column">
-                                                <div class="g-grid">
-                                                    <div class="g-block size-100">
-                                                        <ul class="g-sublevel">
-                                                            <li class="g-level-1 g-go-back">
-                                                                <a class="g-menu-item-container" href="#"
-                                                                   data-g-menuparent=""><span>Back</span></a>
-                                                            </li>
-
-                                                            <li class="g-menu-item g-menu-item-type-component g-menu-item-210  ">
-                                                                <a class="g-menu-item-container"
-                                                                   href="/greennature/index.php/pages/faq">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">FAQ</span>
-
-                    </span>
-                                                                </a>
-                                                            </li>
-
-
-                                                            <li class="g-menu-item g-menu-item-type-component g-menu-item-209  ">
-                                                                <a class="g-menu-item-container"
-                                                                   href="/greennature/index.php/pages/our-team">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Our Team</span>
-
-                    </span>
-                                                                </a>
-                                                            </li>
-
-
-                                                            <li class="g-menu-item g-menu-item-type-component g-menu-item-211  ">
-                                                                <a class="g-menu-item-container"
-                                                                   href="/greennature/index.php/pages/portfolio">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Portfolio</span>
-
-                    </span>
-                                                                </a>
-                                                            </li>
-
-
-                                                            <li class="g-menu-item g-menu-item-type-component g-menu-item-109  ">
-                                                                <a class="g-menu-item-container"
-                                                                   href="/greennature/index.php/pages/login">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Login</span>
-
-                    </span>
-                                                                </a>
-                                                            </li>
-
-
-                                                            <li class="g-menu-item g-menu-item-type-component g-menu-item-161  ">
-                                                                <a class="g-menu-item-container"
-                                                                   href="/greennature/index.php/pages/typography">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Typography</span>
-
-                    </span>
-                                                                </a>
-                                                            </li>
-
-
-                                                            <li class="g-menu-item g-menu-item-type-component g-menu-item-110  ">
-                                                                <a class="g-menu-item-container"
-                                                                   href="/greennature/index.php/pages/registration">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Registration</span>
-
-                    </span>
-                                                                </a>
-                                                            </li>
-
-
-                                                            <li class="g-menu-item g-menu-item-type-url g-menu-item-111  ">
-                                                                <a class="g-menu-item-container"
-                                                                   href="/greennature/index.php/404">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Error Page</span>
-
-                    </span>
-                                                                </a>
-                                                            </li>
-
-
-                                                        </ul>
-                                                    </div>
-                                                </div>
-
-                                            </li>
-                                        </ul>
-                                    </li>
-
-
-                                    <li class="g-menu-item g-menu-item-type-component g-menu-item-115 g-standard  ">
-                                        <a class="g-menu-item-container" href="/greennature/index.php/blog">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Blog</span>
-
-                    </span>
-                                        </a>
-                                    </li>
-
-
-                                    <li class="g-menu-item g-menu-item-type-component g-menu-item-113 g-standard  ">
-                                        <a class="g-menu-item-container" href="/greennature/index.php/contact">
-                                                                <span class="g-menu-item-content">
-                                    <span class="g-menu-item-title">Contact</span>
-
-                    </span>
-                                        </a>
-                                    </li>
-
-
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-
-
-                    <div class="g-block size-10 align-right nav-search visible-large">
-                        <div id="search-5054-particle" class="g-content g-particle">            <!-- ver 2 -->
-
-                            <a href="#jl-search-1829680100" data-uk-modal></a>
-                            <a class="jl-search-button" data-uk-modal="{target:'#jl-search-1829680100'}">
-                                <i class="fa fa-search"></i>
-                            </a>
-                            <div id="jl-search-1829680100" class="uk-modal ">
-                                <div class="uk-modal-dialog uk-modal-dialog-blank uk-height-viewport">
-                                    <a class="uk-modal-close uk-close"></a>
-                                    <form action="index.php/component/search/" style="display:inline-block;">
-                                        <input placeholder="Type Your Search" type="search" name="searchword"></input>
-                                        <input type="hidden" name="Itemid" value="115">
-                                        <input type="hidden" name="option" value="com_search">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
+        @include('layouts.nav')
 
         <section id="g-showcase" class="g-flushed">
             <div class="g-container">
@@ -727,10 +490,10 @@
                     <div class="g-block size-35">
                         <div id="image-2527-particle" class="g-content g-particle">
                             <div id="jl-imgage-429698425" class="jl-image  uk-text-left ">
-                                <a href="/greennature/images/joomlead/featured-product.png" data-lightbox-type="image"
+                                <a href="/nyújtás" data-lightbox-type="image"
                                    data-uk-lightbox="">
                                     <img class="jl-image-reponsive"
-                                         src="/greennature/images/joomlead/featured-product.png" alt="products"
+                                         src="/images/featured-product.png" alt="products"
                                          title="">
                                 </a>
                             </div>
@@ -785,7 +548,7 @@
                                                         <div class="jl-testimonial-info uk-flex uk-flex-middle">
                                                           <span class="jl-testimonial-image">
                                 <img class="jl-testimonial-avatar"
-                                     src="/greennature/images/joomlead/testimonial/team1.png">
+                                     src="/images/team1.png">
                               </span>
                                                             <span class="jl-testimonial-name">Larry Wilson
                                 <div class="jl-testimonial-stars">
@@ -813,7 +576,7 @@
                                                         <div class="jl-testimonial-info uk-flex uk-flex-middle">
                                                           <span class="jl-testimonial-image">
                                 <img class="jl-testimonial-avatar"
-                                     src="/greennature/images/joomlead/testimonial/team3.png">
+                                     src="/images/team3.png">
                               </span>
                                                             <span class="jl-testimonial-name">Jane Travis
                                 <div class="jl-testimonial-stars">
@@ -841,7 +604,7 @@
                                                         <div class="jl-testimonial-info uk-flex uk-flex-middle">
                                                           <span class="jl-testimonial-image">
                                 <img class="jl-testimonial-avatar"
-                                     src="/greennature/images/joomlead/testimonial/team2.png">
+                                     src="/images/team2.png">
                               </span>
                                                             <span class="jl-testimonial-name">Amanda Richards
                                 <div class="jl-testimonial-stars">
@@ -869,7 +632,7 @@
                                                         <div class="jl-testimonial-info uk-flex uk-flex-middle">
                                                           <span class="jl-testimonial-image">
                                 <img class="jl-testimonial-avatar"
-                                     src="/greennature/images/joomlead/testimonial/team1.png">
+                                     src="/images/team1.png">
                               </span>
                                                             <span class="jl-testimonial-name">John Doe
                                 <div class="jl-testimonial-stars">
@@ -947,32 +710,32 @@
                                      data-uk-grid-margin>
                                     <div class="jl-carousel-item ">
                                         <div class="jl-carousel-image">
-                                            <img src="/greennature/images/joomlead/client/logo1.png">
+                                            <img src="/images/logo1.png">
                                         </div>
                                     </div>
                                     <div class="jl-carousel-item ">
                                         <div class="jl-carousel-image">
-                                            <img src="/greennature/images/joomlead/client/logo2.png">
+                                            <img src="/images/logo2.png">
                                         </div>
                                     </div>
                                     <div class="jl-carousel-item ">
                                         <div class="jl-carousel-image">
-                                            <img src="/greennature/images/joomlead/client/logo3.png">
+                                            <img src="/images/logo3.png">
                                         </div>
                                     </div>
                                     <div class="jl-carousel-item ">
                                         <div class="jl-carousel-image">
-                                            <img src="/greennature/images/joomlead/client/logo4.png">
+                                            <img src="/images/logo4.png">
                                         </div>
                                     </div>
                                     <div class="jl-carousel-item ">
                                         <div class="jl-carousel-image">
-                                            <img src="/greennature/images/joomlead/client/logo5.png">
+                                            <img src="/images/logo5.png">
                                         </div>
                                     </div>
                                     <div class="jl-carousel-item ">
                                         <div class="jl-carousel-image">
-                                            <img src="/greennature/images/joomlead/client/logo6.png">
+                                            <img src="/images/logo6.png">
                                         </div>
                                     </div>
                                 </div>

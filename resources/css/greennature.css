@@ -744,7 +744,7 @@ hr {
 #g-subfeature {
     padding: 4rem 0;
     color: #484a4e;
-    background: url('../../../../images/joomlead/background/subfeature-bg.png') 50% 50% / auto no-repeat scroll #f7f8f9;
+    background: url('../../../../images/subfeature-bg.png') 50% 50% / auto no-repeat scroll #f7f8f9;
 }
 @media print {
     /* line 10, templates/jl_greennature_pro/scss/greennature/_subfeature.scss */

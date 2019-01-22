@@ -8,7 +8,8 @@
     <link href="/css/dynamic-captions.css" rel="stylesheet" />
     <link href="/css/static-captions.css" rel="stylesheet" />
     <link href="/css/module_default.css" rel="stylesheet" />
-    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+    {{--<link href="/css/font-awesome.min.css" rel="stylesheet" />--}}
     <link href="/css/nucleus.css" rel="stylesheet" />
     <link href="/css/greennature.css" rel="stylesheet" />
     <link href="/css/bootstrap-gantry.css" rel="stylesheet" />
