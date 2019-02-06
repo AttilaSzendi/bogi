@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/rolam', function () {
+    return view('about');
+});
 
 Auth::routes();
 
