@@ -1,14 +1,151 @@
-
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+p {
+  margin:0;
+  padding:0;
+}
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.contact {
+  color: #757575;
+}
+.phone-icon{
+  font-size: 24px;
+}
+
+.container-fluid--max-width{
+  padding:0;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.owl-carousel {
+  margin: 0;
+  padding: 0;
+  max-height: 585px;
+  overflow: hidden;
+}
+
+.owl-carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container--grey {
+  background-color: $grey;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.social-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-box__item {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.social-box__item--facebook:hover {
+  background: $facebook;
+}
+
+.social-box__item--instagram:hover {
+  background: $instagram;
+}
+
+.social-box a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-box {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.navigation-list a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #757575;
+}
+
+.navigation-list a:hover {
+  color: lighten(#757575, 10%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation-list {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation-list {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation-list a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+
+  .navigation-list li:last-of-type a {
+    border-bottom: none;
+  }
 }
