@@ -9604,6 +9604,29 @@ p {
   text-decoration: none;
 }
 
+.main-page-button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-page-button-container__link {
+  display: block;
+  padding: 20px;
+  margin: 15px;
+  background: #0e90d2;
+  color: white;
+  text-decoration: none;
+}
+
+.main-page-button-container__link:hover {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+.secondary-color {
+  color: #f6993f;
+}
+
 @media only screen and (max-width: 600px) {
   .social-box {
     display: flex;

@@ -48,8 +48,12 @@
     <div class="owl-carousel owl-theme">
         <div class="owl-carousel__item"><img src="/images/slider/slider_1.jpg" alt="The Last of us"></div>
         <div class="owl-carousel__item"><img src="/images/slider/slider_2.jpg" alt="GTA V"></div>
-        <div class="owl-carousel__item"><img src="/images/slider/slider3.jpg" alt="GTA V"></div>
-        <div class="owl-carousel__item"><img src="/images/slider/slider_4.jpg" alt="GTA V"></div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container main-page-button-container">
+        <a class="main-page-button-container__link" href="/gerinctorna-nyujtassal">Gerinctorna nyújtással</a>
+        <a class="main-page-button-container__link" href="/erosites-es-nyujtas">Erősítés és Nyújtás</a>
     </div>
 </div>
 

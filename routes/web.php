@@ -19,6 +19,14 @@ Route::get('/test', function () {
     return view('test');
 });
 
+Route::get('/gerinctorna-nyujtassal', function () {
+    return view('spine');
+});
+
+Route::get('/erosites-es-nyujtas', function () {
+    return view('exercise');
+});
+
 Route::get('/rolam', function () {
     return view('about');
 });
